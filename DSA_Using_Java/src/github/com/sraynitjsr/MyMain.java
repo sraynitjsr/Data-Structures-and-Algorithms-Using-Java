@@ -5,9 +5,9 @@ public class MyMain {
 		System.out.print("Welcome to the world of Java..\n");
 		 MyInputOutput.inputOutput();
 		 MyArrayList.operateList();
-		 MyMultiThreadingSharedResource.operateMultiThreading();
-		 MySimpleThreading.operateThreading();
 		 MyHashMap.operateHashMap();
 		 MyClassSorting.sortStudentsByNameLength();
+		 MyMultiThreadingSharedResource.operateMultiThreading();
+		 MySimpleThreading.operateThreading();
 	}
 }
