@@ -1,0 +1,13 @@
+package github.com.sraynitjsr;
+
+public class MyMain {
+	public static void main(String[] args) throws Exception {
+		System.out.print("Welcome to the world of Java..\n");
+		 MyInputOutput.inputOutput();
+		 MyArrayList.operateList();
+		 MyMultiThreadingSharedResource.operateMultiThreading();
+		 MySimpleThreading.operateThreading();
+		 MyHashMap.operateHashMap();
+		 MyClassSorting.sortStudentsByNameLength();
+	}
+}
