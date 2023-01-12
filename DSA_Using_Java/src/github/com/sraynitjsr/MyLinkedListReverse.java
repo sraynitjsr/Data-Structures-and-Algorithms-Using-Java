@@ -1,4 +1,6 @@
-class MyLinkedListReverse {
+import java.util.*;
+
+public class MyLinkedListReverse {
 
 	static Node head;
 
@@ -37,20 +39,20 @@ class MyLinkedListReverse {
 		}
 	}
 
-	public static void main(String[] args)
+	public static void start()
 	{
-		LinkedList list = new LinkedList();
+		MyLinkedListReverse list = new MyLinkedListReverse ();
 		list.head = new Node(10);
-		list.head.next = new Node(20);
+		list.head.next = new Node(-20);
 		list.head.next.next = new Node(30);
 		list.head.next.next.next = new Node(40);
 		list.head.next.next.next.next = new Node(50);
 
-		System.out.print("Given Linked List is => ");
+		System.out.print("Given Linked List is\t => ");
 		list.printList(head);
 		head = list.reverse(head);
 		System.out.println("");
-		System.out.print("Reversed Linked List is => ");
+		System.out.print("Reversed Linked List is  => ");
 		list.printList(head);
 	}
 }
