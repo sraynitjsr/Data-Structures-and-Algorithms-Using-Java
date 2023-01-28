@@ -1,5 +1,3 @@
-package github.com.sraynitjsr;
-
 class MyThread implements Runnable {
 	public void run() {
 		for (int i=0; i<5; i++) {
@@ -13,7 +11,7 @@ class MyThread implements Runnable {
 	}
 }
 
-public class MySimpleThreading {
+class MySimpleThreading {
 	public static void operateThreading() throws Exception {
 		MyThread myThreadObject = new MyThread();
 		

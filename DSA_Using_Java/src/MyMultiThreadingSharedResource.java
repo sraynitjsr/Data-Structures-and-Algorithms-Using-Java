@@ -1,5 +1,3 @@
-package github.com.sraynitjsr;
-
 class Resource implements Runnable {
 	private static int val = 1;
 	public void run() {
@@ -18,7 +16,8 @@ class Resource implements Runnable {
 		}		
 	}
 }
-public class MyMultiThreadingSharedResource {
+
+class MyMultiThreadingSharedResource {
 	public static void operateMultiThreading() throws Exception {
 		Resource r1 = new Resource();
 		Resource r2 = new Resource();

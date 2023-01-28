@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class MyLinkedListReverse {
+class MyLinkedListReverse {
 
 	static Node head;
 
@@ -42,11 +40,11 @@ public class MyLinkedListReverse {
 	public static void start()
 	{
 		MyLinkedListReverse list = new MyLinkedListReverse ();
-		list.head = new Node(10);
-		list.head.next = new Node(-20);
-		list.head.next.next = new Node(30);
-		list.head.next.next.next = new Node(40);
-		list.head.next.next.next.next = new Node(50);
+		MyLinkedListReverse.head = new Node(10);
+		MyLinkedListReverse.head.next = new Node(-20);
+		MyLinkedListReverse.head.next.next = new Node(30);
+		MyLinkedListReverse.head.next.next.next = new Node(40);
+		MyLinkedListReverse.head.next.next.next.next = new Node(50);
 
 		System.out.print("Given Linked List is\t => ");
 		list.printList(head);

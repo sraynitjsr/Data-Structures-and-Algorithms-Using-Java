@@ -1,8 +1,6 @@
-package github.com.sraynitjsr;
-
 import java.util.*;
 
-public class MyArrayList {
+class MyArrayList {
 	
 	public static void displayList(ArrayList<Integer> newArrayList) {
 		System.out.print("\nCurrent List is => ");

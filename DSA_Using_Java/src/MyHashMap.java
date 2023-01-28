@@ -1,8 +1,6 @@
-package github.com.sraynitjsr;
-
 import java.util.*;
 
-public class MyHashMap {
+class MyHashMap {
 	
 	public static void display(HashMap<String, Integer> myMap) {
 		System.out.println("Current HashMap is\n");

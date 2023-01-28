@@ -1,8 +1,6 @@
-package github.com.sraynitjsr;
-
 import java.io.*;
 
-public class MyInputOutput {
+class MyInputOutput {
 	public static void inputOutput() throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

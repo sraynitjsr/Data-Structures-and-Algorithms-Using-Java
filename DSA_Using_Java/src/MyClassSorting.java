@@ -1,5 +1,3 @@
-package github.com.sraynitjsr;
-
 import java.util.*;
 
 class Student {
@@ -27,7 +25,7 @@ class SortStudents implements Comparator<Student> {
 	}
 }
 
-public class MyClassSorting {
+class MyClassSorting {
 	public static void sortStudentsByNameLength() {
 		Student s1 = new Student(30, "Small");
 		Student s2 = new Student(20, "Little Big");
