@@ -8,7 +8,10 @@ class Product{
         this.id = id;  
         this.name = name;  
         this.price = price;  
-    }  
+    }
+    public int compareTo(Product p) {
+        return id - p.id ;
+    }
 }  
 class MyStreamAPIUsage {  
     public static void start() {
@@ -21,5 +24,6 @@ class MyStreamAPIUsage {
         products.add(new Product(5,"E",500f));
         System.out.println(products.stream().filter(p -> p.price >300).map(p->p.price).collect(Collectors.toList()));
         System.out.println(products.stream().filter(p -> p.name == "B" || p.name == "C").map(p->p.id + " " +p.name + " " + p.price).collect(Collectors.toList()));
+        System.out.println(products.stream().sorted((p1, p2) -> p1.compareTo(p2)).collect(Collectors.toList()));
     }
 }
