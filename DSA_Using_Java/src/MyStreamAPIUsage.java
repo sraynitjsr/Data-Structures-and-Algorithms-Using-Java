@@ -38,6 +38,17 @@ class MyStreamAPIUsage {
         list.stream().filter(data -> data%2 != 0).map(data -> data * data).collect(Collectors.toList()).forEach(data -> System.out.print(data + " "));
     }
 
+    public static void sortingList() {
+        List<Integer> list = new ArrayList<>();
+        list.add(5); list.add(3); list.add(1); list.add(4); list.add(2);
+
+        System.out.println("\n\nSorting List in Ascending Order => " + list);
+        list.stream().sorted().collect(Collectors.toList()).forEach(data -> System.out.print(data + " "));
+
+        System.out.println("\n\nSorting List in Descending Order => " + list);
+        list.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList()).forEach(data -> System.out.print(data + " "));
+    }
+
     public static void start() {
         System.out.println("\nInside Stream API Module");
         
@@ -48,6 +59,8 @@ class MyStreamAPIUsage {
         mapExampleOne();
 
         exampleFilterAndMapData();
+
+        sortingList();
 
         System.out.println("");
     }
