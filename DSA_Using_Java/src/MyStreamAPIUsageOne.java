@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-class MyStreamAPIUsage {
+class MyStreamAPIUsageOne {
     
     public static void printEvenNumbers() {
         List<Integer> list = new ArrayList<>();
@@ -50,7 +50,7 @@ class MyStreamAPIUsage {
     }
 
     public static void start() {
-        System.out.println("\nInside Stream API Module");
+        System.out.println("\nInside First Stream API Module");
         
         printEvenNumbers();
         
