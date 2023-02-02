@@ -8,7 +8,8 @@ public class MyMain {
 		// MyMultiThreadingSharedResource.operateMultiThreading();
 		// MySimpleThreading.operateThreading();
 		// MyLinkedListReverse.start();
-		MyStreamAPIUsageOne.start();
-		MyStreamAPIUsageTwo.start();
+		// MyStreamAPIUsageOne.start();
+		// MyStreamAPIUsageTwo.start();
+		My_Kth_Largest_Element.start();
 	}
 }
