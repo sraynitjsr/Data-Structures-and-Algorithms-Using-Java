@@ -10,6 +10,7 @@ public class MyMain {
 		// MyLinkedListReverse.start();
 		// MyStreamAPIUsageOne.start();
 		// MyStreamAPIUsageTwo.start();
-		My_Kth_Largest_Element.start();
+		// My_Kth_Largest_Element.start();
+		MySortByFrequency.start();
 	}
 }
