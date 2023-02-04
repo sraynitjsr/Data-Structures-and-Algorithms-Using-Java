@@ -9,8 +9,8 @@ public class MyMain {
 		// MySimpleThreading.operateThreading();
 		// MyLinkedListReverse.start();
 		// MyStreamAPIUsageOne.start();
-		// MyStreamAPIUsageTwo.start();
-		// My_Kth_Largest_Element.start();
-		MySortByFrequency.start();
+		// MyStreamAPIUsageTwo.start();		
+		// MySortByFrequency.start();
+		My_Kth_Smallest_and_Largest_Element.start();
 	}
 }
