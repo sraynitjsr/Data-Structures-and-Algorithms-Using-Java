@@ -11,6 +11,7 @@ public class MyMain {
 		// MyStreamAPIUsageOne.start();
 		// MyStreamAPIUsageTwo.start();		
 		// MySortByFrequency.start();
-		My_Kth_Smallest_and_Largest_Element.start();
+		// My_Kth_Smallest_and_Largest_Element.start();
+		My_Sort_by_Frequency.start();
 	}
 }
