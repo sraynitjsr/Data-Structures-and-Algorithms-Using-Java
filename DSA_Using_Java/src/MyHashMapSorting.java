@@ -8,10 +8,16 @@ public class MyHashMapSorting {
         hashMap.put("Sourav", 50);
         hashMap.put("Laxman", 10);
         
-        System.out.println("Sorting HashMap by Key");
+        System.out.println("\nSorting HashMap by Key in Natural Order");
         hashMap.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(System.out::println);
         
-        System.out.println("Sorting HashMap by Value");
+        System.out.println("\nSorting HashMap by Key in Reversed Order");
+        hashMap.entrySet().stream().sorted(Map.Entry.comparingByKey(Collections.reverseOrder())).forEach(System.out::println);
+        
+        System.out.println("\nSorting HashMap by Value in Natural Order");
         hashMap.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);
+
+        System.out.println("\nSorting HashMap by Value in Reversed Order");
+        hashMap.entrySet().stream().sorted(Map.Entry.comparingByValue(Collections.reverseOrder())).forEach(System.out::println);
     }
 }
