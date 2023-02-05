@@ -13,6 +13,7 @@ public class MyMain {
 		// MySortByFrequency.start();
 		// My_Kth_Smallest_and_Largest_Element.start();
 		// My_Sort_by_Frequency.start();
-		MyTripletSum.start();
+		// MyTripletSum.start();
+		MyHashMapSorting.start();
 	}
 }
